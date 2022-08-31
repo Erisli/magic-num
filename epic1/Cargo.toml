@@ -7,3 +7,4 @@ edition = "2021"
 
 [dependencies]
 magic-num = { git = "https://github.com/cfilipescu/magic-num.git", branch = "main"}
+rand="0.3.14"
