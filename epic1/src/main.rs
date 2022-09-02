@@ -10,6 +10,12 @@ fn main() {
     println!("0-255: {num}");
 
     // 0-231
+    if(num < 24){
+        println!("0-231: {num}");
+    }else{
+        num -= 24;
+        println!("0-231: {num}");
+    }
     num = magic_num::magic_number();
     for i in 0..7 {
         if magic_num::magic_number() == 1 {
